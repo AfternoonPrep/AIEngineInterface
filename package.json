@@ -1,0 +1,33 @@
+{
+  "name": "privategpt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "server": "nodemon server",
+    "dev": "yarn run server",
+    "deploy": "gcloud app deploy"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "@pinecone-database/pinecone": "^0.1.6",
+    "@types/express-fileupload": "^1.4.1",
+    "axios": "^1.4.0",
+    "basic-auth": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "langchain": "^0.0.124",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^3.3.0",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}
